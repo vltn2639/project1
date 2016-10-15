@@ -1,0 +1,230 @@
+@media screen and (max-device-width: 768px) {
+  .btn-menu {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 0px 5px 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    transition: left .43s;
+    z-index: 3;
+    width: 25px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .btn-menu:hover {
+    cursor: pointer;
+  }
+  .btn-menu span {
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+  }
+  .btn-menu__first {
+    margin-top: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    left: 10px;
+  }
+  .hidden-menu-ticker:checked ~ .hidden-menu {
+    left: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:first-child {
+    -webkit-transform: rotate(45deg);
+    top: 10px;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:nth-child(2) {
+    opacity: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:last-child {
+    -webkit-transform: rotate(-45deg);
+    top: -10px;
+  }
+  input#hmt {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+  }
+  body {
+    position: relative;
+    left: 0;
+    transition: left .43s;
+  }
+  .mode {
+    left: 35%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100%;
+  }
+  .header__container {
+    width: 100%;
+  }
+  .header__nav {
+    text-align: center;
+  }
+  .header__nav li {
+    margin-right: 10px;
+  }
+  .main {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .main__content {
+    width: 100%;
+    display: block;
+  }
+  .main__block .block-header {
+    letter-spacing: -0.6px;
+    font-size: 20px;
+  }
+  .main__block .block-img {
+    width: 100%;
+    height: auto;
+  }
+  .main__block .block-img:after {
+    background-size: 100%;
+    width: 100%;
+  }
+  .main__block .block-img img {
+    width: 100%;
+  }
+  .main__block .read-more {
+    right: -83%;
+  }
+  .main__sidebar {
+    position: absolute;
+    top: 0;
+    width: 35%;
+    left: -35%;
+    margin: 0;
+  }
+  .main__sidebar .sidebar-block {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  .btn-menu {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 0px 5px 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    transition: left .43s;
+    z-index: 3;
+    width: 25px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .btn-menu:hover {
+    cursor: pointer;
+  }
+  .btn-menu span {
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+  }
+  .btn-menu__first {
+    margin-top: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    left: 10px;
+  }
+  .hidden-menu-ticker:checked ~ .hidden-menu {
+    left: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:first-child {
+    -webkit-transform: rotate(45deg);
+    top: 10px;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:nth-child(2) {
+    opacity: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span:last-child {
+    -webkit-transform: rotate(-45deg);
+    top: -10px;
+  }
+  input#hmt {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+  }
+  body {
+    position: relative;
+    left: 0;
+    transition: left .43s;
+  }
+  .mode {
+    left: 67%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100%;
+  }
+  .header__container {
+    width: 100%;
+  }
+  .header__nav {
+    text-align: center;
+  }
+  .header__nav li {
+    margin-right: 10px;
+  }
+  .main {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .main__content {
+    width: 100%;
+    display: block;
+  }
+  .main__block .block-header {
+    letter-spacing: -0.6px;
+    font-size: 20px;
+  }
+  .main__block .block-img {
+    width: 100%;
+    height: auto;
+  }
+  .main__block .block-img:after {
+    background-size: 100%;
+    width: 102%;
+  }
+  .main__block .block-img img {
+    width: 100%;
+  }
+  .main__block .read-more {
+    right: -66%;
+  }
+  .main__sidebar {
+    position: absolute;
+    top: 0;
+    width: 67%;
+    left: -67%;
+    margin: 0;
+  }
+  .main__sidebar .sidebar-block {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-device-width: 320px) {
+  .main .read-more {
+    right: -200px;
+  }
+  .header__nav {
+    margin-left: 60px;
+  }
+}
